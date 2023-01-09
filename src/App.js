@@ -11,7 +11,7 @@ function App() {
       <main>
         <section className="buttons">
           <h3 className="buttons__title">Button Components</h3>
-          <Button primary rounded onClick={handleClick}>
+          <Button primary rounded  onClick={handleClick}>
             <GoBell className="icon" />
             Primary Button
           </Button>
