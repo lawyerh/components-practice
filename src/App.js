@@ -2,16 +2,20 @@ import Button from "./components/Button";
 import { GoBell, GoWatch, GoOctoface, GoJersey } from "react-icons/go";
 
 function App() {
+  const handleClick = () => {
+    console.log("Clicked!");
+  };
+
   return (
     <div className="App">
       <main>
         <section className="buttons">
           <h3 className="buttons__title">Button Components</h3>
-          <Button primary rounded>
+          <Button primary rounded onClick={handleClick}>
             <GoBell className="icon" />
             Primary Button
           </Button>
-          <Button secondary outline>
+          <Button secondary outline onMouseEnter={handleClick}>
             <GoWatch className="icon" />
             Secondary
           </Button>
