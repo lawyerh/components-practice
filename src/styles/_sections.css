@@ -1,0 +1,11 @@
+.buttons {
+  width: 25%;
+  display: grid;
+  gap: 2rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.buttons__title {
+  font-size: 2.6rem;
+}
